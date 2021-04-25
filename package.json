@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/aelbore/lit-element-hmr-esbuild#readme",
   "devDependencies": {
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
     "@open-wc/dev-server-hmr": "^0.1.1",
     "@web/dev-server": "^0.1.12",
     "@web/dev-server-esbuild": "^0.2.11"
