@@ -865,6 +865,11 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+estree-walker@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.6.1.tgz#53049143f40c6eb918b23671d1fe3219f3a1b362"
+  integrity sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==
+
 estree-walker@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-1.0.1.tgz#31bc5d612c96b704106b477e6dd5d8aa138cb700"
@@ -1334,6 +1339,22 @@ resolve@^1.19.0:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
+rollup-plugin-lit-css@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-lit-css/-/rollup-plugin-lit-css-2.1.0.tgz#ea885427465c54cb393fdd49ab7dbf157c81eab2"
+  integrity sha512-/sQRK00EmI7C6QNLFeFTjGzMoFX75puY31QFtZncFVVv1gi2U5KDNShcNTNV3R1g3sPRf4XnVKchtzIofPVixg==
+  dependencies:
+    rollup-pluginutils "^2.8.2"
+    string-to-template-literal "^0.2.2"
+    uglifycss "0.0.29"
+
+rollup-pluginutils@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz#72f2af0748b592364dbd3389e600e5a9444a351e"
+  integrity sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==
+  dependencies:
+    estree-walker "^0.6.1"
+
 rollup@^2.35.1:
   version "2.45.2"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.45.2.tgz#8fb85917c9f35605720e92328f3ccbfba6f78b48"
@@ -1382,6 +1403,11 @@ source-map@^0.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+string-to-template-literal@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/string-to-template-literal/-/string-to-template-literal-0.2.2.tgz#4fd7d93ca0696f3d0796579326204d6e068c17e6"
+  integrity sha512-9lSNOLoQKhtdHkp1avgpraImiSvBBgxJQwkVriDDcHmvPsnCZpLbAMJnJxj9Mf1GkziHBo3vwxipukhA+KCC0g==
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -1458,6 +1484,11 @@ ua-parser-js@^0.7.23:
   version "0.7.28"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
   integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
+
+uglifycss@0.0.29:
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/uglifycss/-/uglifycss-0.0.29.tgz#abe49531155d146e75dd2fdf933d371bc1180054"
+  integrity sha512-J2SQ2QLjiknNGbNdScaNZsXgmMGI0kYNrXaDlr4obnPW9ni1jljb1NeEVWAiTgZ8z+EBWP2ozfT9vpy03rjlMQ==
 
 vary@^1.1.2:
   version "1.1.2"

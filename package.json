@@ -21,7 +21,9 @@
     "@babel/plugin-syntax-class-properties": "^7.12.13",
     "@open-wc/dev-server-hmr": "^0.1.1",
     "@web/dev-server": "^0.1.12",
-    "@web/dev-server-esbuild": "^0.2.11"
+    "@web/dev-server-esbuild": "^0.2.11",
+    "@web/dev-server-rollup": "^0.3.3",
+    "rollup-plugin-lit-css": "^2.1.0"
   },
   "dependencies": {
     "lit-element": "^2.4.0"
